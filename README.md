@@ -17,8 +17,11 @@
 
 
 - 再現方法
-	- 環境構築
+	- 環境構築1
 		- requirement.txtを参考に環境構築をする。
+	- 環境構築2
+		- dockerhubを用いてコンテナをダウンロードする。
+		- 'docker pull padawane15/ubuntu_py3.5.1_fastfm:sklearn22'
 	- 実験の再現手引(追加実験を除く)
 		- ファイル名："Scaling + LIME + BigData.ipynb"
 		- Jupiternotebookファイルを実行することで、順次実験結果を得る。
