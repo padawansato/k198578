@@ -29,6 +29,9 @@
 		- ファイル名："randomsampling.ipynb"
 		- 追加実験ではlimeライブラリを一部改正したmylimeを呼び出す。そのため、実行環境(pythonラインタイム)が呼び出すlimeライブラリのpathを調べる。
 		- limeを改変した、mylimeライブラリをJupyternotebookファイルから呼び出せる場所(本実験の場合、同一階層のディレクトリ)に配置しJupyternotebookファイルを実行すること実験結果を得る。
-		  
+		- 追加実験では、ランダムサンプリングではないデータセットを生成し、それをLIMEライブラリを一部改変したライブラリから呼び出すことでLIMEアルゴリズムがランダムサンプリングして疑似データを生成する過程の代わりに自作のデータセットを渡すことで自作のデータセットを用いた推論結果を得た。
+- ソースコード
+	- github:'https://github.com/psato/k198578'
+	- dockerhub:'padawane15/ubuntu_py3.5.1_fastfm:sklearn22'
 
 
