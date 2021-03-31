@@ -14,9 +14,22 @@
 	- pickleshare (0.7.4)
 	- lime (0.2.0.1)
 	- fastFM (0.2.11)
+
+
+- 再現方法
+	- 実験の再現手引(追加実験を除く)
+		- ファイル名："Scaling + LIME + BigData.ipynb"
+		- Jupiternotebookファイルを実行することで、順次実験結果を得る。
+	- 追加実験の再現手引
+		- ファイル名："randomsampling.ipynb"
+		- 追加実験ではlimeライブラリを一部改正したmylimeを呼び出す。そのため、実行環境(pythonラインタイム)が呼び出すlimeライブラリのpathを調べる。
+		- limeを改変した、mylimeライブラリをJupyternotebookファイルから呼び出せる場所(本実験の場合、同一階層のディレクトリ)に配置しJupyternotebookファイルを実行すること実験結果を得る。
+		  
+
 - 利用した他のライブラリ('pip3 list'の出力結果)
 
 ---
+
 asn1crypto (0.24.0)
 bleach (2.1.1)
 cryptography (2.1.4)
@@ -94,16 +107,4 @@ wcwidth (0.1.7)
 webencodings (0.5.1)
 wheel (0.30.0)
 widgetsnbextension (3.0.3)
----
-
-
-- 再現方法
-	- 実験の再現手引(追加実験を除く)
-		- ファイル名："Scaling + LIME + BigData.ipynb"
-		- Jupiternotebookファイルを実行することで、順次実験結果を得る。
-	- 追加実験の再現手引
-		- ファイル名："randomsampling.ipynb"
-		- 追加実験ではlimeライブラリを一部改正したmylimeを呼び出す。そのため、実行環境(pythonラインタイム)が呼び出すlimeライブラリのpathを調べる。
-		- limeを改変した、mylimeライブラリをJupyternotebookファイルから呼び出せる場所(本実験の場合、同一階層のディレクトリ)に配置しJupyternotebookファイルを実行すること実験結果を得る。
-		  
 
